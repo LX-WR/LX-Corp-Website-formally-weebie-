@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+
+<head>
+<link rel="shortcut icon" href="yay.ico"> 
+<title>LX Help center</title>
+<link id="stylesheet" rel="stylesheet" href="styles-blur.css">
+<style>
+ #background-video {
+  position: fixed; /* Stay in place */
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Place behind other content */
+  object-fit: cover; /* Ensure video covers the entire viewport */
+}
+.rounded-box {
+  max-width: 100%; /* Ensure it does not exceed the width of its parent container */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px; /* Add some space within the box */
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 2px solid blue; /* Add a border (optional) */
+  border-radius: 25px; /* Adjust this value for roundness */
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 100, 100);
+}
+div.content {
+width: 80%; 
+overflow-y: auto;
+transform: translateX(25%); 
+padding: 0 0% 0 0;
+height: 100vh; 
+animation: fadeIn 1.5s ease-in-out; 
+}
+div.sidebar {
+transform: translateY(25%);
+width: 17%;
+  height: 100%; /* Sidebar takes full container height */
+  overflow-y: auto; /* Enables scrolling within the sidebar */
+  position: fixed; /* Makes the sidebar sticky */
+  top: 0; /* Sticks to the top */
+padding: 0 0% 0 0}
+.rounded-box2 {
+  height: 10px;
+  
+  margin: 0 auto; /* Center horizontally */
+  padding: 10px; /* Add some space within the box */
+  background-color: rgba(0, 255, 255, 0.25);
+  border: 2px solid white; /* Add a border (optional) */
+  border-radius: 25px; /* Adjust this value for roundness */
+  box-shadow: 0px 0px 20px 1px rgba(0, 255, 255, 100);
+}
+#myButtonh {
+margin: 10px;
+  background-color: rgba(0, 255, 0, 0.25);
+  color: white;
+  padding: 10px 20px;
+  border: 2px dashed rgba(0, 255, 0, 1);
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0px 20px rgba(0, 255, 0, 100);
+  transition: all 0.25s ease-in-out; 
+}
+#myButtonh:hover {
+box-shadow: 0 0px 30px rgba(0, 255, 0, 255);
+  background-color: rgba(0, 255, 100, 0.75); 
+  transform: scale(1.15);
+}
+#myButtonh:active {
+background-color: rgba(0, 255, 0, 0.55);
+      transform: scale(0.85);
+    }
+h4  {font-family: Arial, Helvectica, sans-serif; color: white; font-size: 1em; font-weight: bold; text-shadow: 0px 0px 10px bleack; padding: 0; margin: 0; line-height: 0.5}
+</style>
+</head>
+<button id="myButton11">Speed things up &#x1F6E1;</button>
+<div class="confirm-box"> 
+    <h3>Warning:</h3>
+    <p>This will USE JAVASCRIPT to disable blurring.</p>
+    <p>This operation will also use 1 cookie to remember your preference.</p>
+    <a href="helpland.html">
+    <button id="myButton9">No, go back</button>
+    --
+    <button id="toggleBlurBtn">Toggle Blur and use 1 cookie</button>
+    </a>
+  </div>
+
+<body>
+<video autoplay muted loop id="background-video">
+  <source src="images/a2.mp4" type="video/mp4">
+  <source src="images/a2.webm" type="video/webm">  Your browser does not support the video tag.
+</video>
+<div class="topbar">
+    <a href="wat.html">
+  <button id="myButton3">Entertainment</button>
+</a>
+--
+
+
+  <button id="myButton2">Downloads?</button>
+  <div class="dropdown-box2 animate-dropdown">
+  <a href="LXOSdownloads.html">
+    <button id="myButton4">LX OS Downloads</button>
+    </a>
+    <h1>Get downloads for LX OS - the new, sleek,<h1>
+    <h1>and functional OS - here :}<h1>
+    <button id="myButton4">LX Apps Downloads</button>
+    <h1>Apps developed by me, LX (ohno)<h1>
+    <button id="myButton4">The raw website code</button>
+    <h1>Steal - I MEAN borrow - the website code :}<h1>
+    <button id="myButton4">Other random gems :}</button>
+    <h1>What random gems are we talking about?<h1>
+  </div>
+
+
+--
+<a href="index.html">
+  <button id="myButton">Home</button>
+</a>
+--
+<a href="woah.html">
+  <button id="myButton4">About</button>
+</a>
+--
+<a href="FaQ.html">
+  <button id="myButton8">FAQ...</button>
+</a>
+</div>
+<div class="sidebar">
+<div class="rounded-box animate-box">
+<!-- Sidebar shit -->
+<a href="helpland.html">
+  <button id="myButtonh">Welcome home!</button>
+</a>
+<a href="woah.html">
+  <button id="myButtonh">Website help</button>
+</a>
+<a href="woah.html">
+  <button id="myButtonh">LX OS 3.1 User Guide</button>
+</a>
+<a href="woah.html">
+  <button id="myButtonh">LX OS MC User Guide</button>
+</a>
+<a href="woah.html">
+  <button id="myButtonh">Other things :}</button>
+</a>
+<a href="woah.html">
+  <button id="myButtonh">More help...</button>
+</a>
+</div>
+</div>
+<div class="content">
+<!-- place content BELOW this line, peep :} -->
+<p>--</p>
+<h3>Welcome to the LX Help Center!</h3>
+<div class="rounded-box2 animate-box">
+<h4>You have arrived at the place to get help for everything LX Corp.</h4>
+</div>
+<p>To begin, click a topic in da sidebar :}</p>
+<h3>Need even more help?</h3>
+<p>Contact LX2023 :}</p>
+<a href="https://discord.gg/ZVP5UNMCgX">
+  <button id="myButtonh">Contact LX2023 on discord...</button>
+</a>
+<a href="mailto:manmanbear11@outlook.com?subject=I need some help rn pls rn, help nOw - reach me at (insert form of contact here)">
+  <button id="myButtonh">Contact LX2023 by email...</button>
+</a>
+<p>-</p>
+<div class="rounded-box2 animate-box">
+<h4>Note: The discord link is faster and more reliable than email.</h4>
+</div>
+</div>
+</body>
+<script src="script.js"></script>
+

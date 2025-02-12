@@ -1,0 +1,383 @@
+body {text-align: center; background-image: url('images/test2.png'); background-size: cover; 
+  background-attachment: fixed; padding: 0 0% 0 0%}
+
+p  {font-family: Arial, Helvectica, sans-serif; color: white; font-size: 1.1em; text-shadow: 2px 2px 4px black}
+h2  {font-family: Arial, Helvectica, sans-serif; color: blue; font-size: 1.5em; font-weight: bold; text-shadow: 2px 2px 4px black}
+h3  {font-family: Arial, Helvectica, sans-serif; color: yellow; font-size: 3.0em; font-weight: bold; text-shadow: 2px 2px 4px black}
+h1  {font-family: Arial, Helvectica, sans-serif; color: white; font-size: 0.75em; text-shadow: 2px 2px 4px black}
+a.list {font-family: Arial, Helvectica, sans-serif; color: #0000FF; font-size: 22px; font-weight: bolder; text-decoration: none; line-height: 32px}
+a.list:link {color: #DDDDDD}
+a.list:visited {color: #DD2020}
+a.list:hover {color #200099; background: #FFFFFF}
+
+div.main {width: 100%; padding: 0 0% 0 0}
+
+.topbar {
+  width: 95%;
+  height: auto; /* Correcting the typo from "hight" to "height" and setting it to auto */
+  float: none; /* Float is unnecessary for centering with position fixed */
+  position: fixed;
+  transform: translateX(-50%);
+  top: 50px; /* Correcting the value to be in pixels */
+  left: 50%;
+  text-align: center;
+  z-index: 998;
+  animation: zoomIn 1s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 3px dashed white;
+  border-radius: 25px; /* Adjust this value for roundness */
+  box-shadow: 10px 2px 20px 15px rgba(255, 255, 255, 100);
+  padding: 8px 15px;
+}
+
+
+#myButton { 
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid blue;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton:hover {
+  background-color: rgba(0, 25, 255, 0.25); 
+  transform: scale(1.15);
+}
+#myButton:active {
+   background-color: rgba(0, 200, 255, 0.25);
+      transform: scale(0.85);
+    }
+#myButton2 {
+
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid blue;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton2:hover {
+  background-color: rgba(0, 25, 255, 0.25); 
+  transform: scale(1.15);
+}
+.dropdown-catagory #myButton2:active .dropdown-box2 {
+  display: block; 
+}
+.dropdown-box2:hover {
+  display: block;
+}
+#myButton2:active {
+background-color: rgba(0, 200, 255, 0.25);
+      transform: scale(0.85);
+    }
+    
+#myButton3 { 
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid blue;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton3:hover {
+  background-color: rgba(0, 25, 255, 0.25); 
+  transform: scale(1.15);
+}
+#myButton3:active {
+   background-color: rgba(0, 200, 255, 0.25);
+      transform: scale(0.85);
+    }
+#myButton4 {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid blue;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton4:hover {
+  background-color: rgba(0, 25, 255, 0.25); 
+  transform: scale(1.15);
+}
+#myButton4:active {
+background-color: rgba(0, 200, 255, 0.25);
+      transform: scale(0.85);
+    }
+#myButton5 {
+
+  animation: zoomIn 0.5s ease-in-out; 
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton5:hover {
+  background-color: rgba(0, 25, 255, 0.25);
+  transform: scale(1.15);
+}
+
+.dropdown-catagory #myButton5:active .dropdown-box {
+  display: block; 
+}
+.dropdown-box:hover {
+  display: block;
+}
+#myButton5:active {
+background-color: rgba(0, 200, 255, 0.25);
+      transform: scale(0.85);
+    }
+#myButton6 {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton6:hover {
+  background-color: rgba(0, 25, 255, 0.25); 
+  transform: scale(1.15);
+}
+#myButton6:active {
+background-color: rgba(0, 200, 255, 0.25);
+      transform: scale(0.85);
+    }
+#myButton7 {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton7:hover {
+  background-color: rgba(0, 25, 255, 0.25); 
+  transform: scale(1.15);
+}
+#myButton7:active {
+background-color: rgba(0, 200, 255, 0.25);
+      transform: scale(0.85);
+    }
+#myButton8 {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid blue;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton8:hover {
+  background-color: rgba(0, 25, 255, 0.25); 
+  transform: scale(1.15);
+}
+#myButton8:active {
+background-color: rgba(0, 200, 255, 0.25);
+      transform: scale(0.85);
+    }
+#myButton9 {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px dashed #00FF00;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton9:hover {
+  background-color: rgba(0, 200, 100, 0.35); 
+  transform: scale(1.15);
+}
+#myButton9:active {
+background-color: rgba(0, 200, 0, 0.25);
+      transform: scale(0.85);
+    }
+    #myButton11 {
+  
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px dashed #FF0000;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#myButton11:hover {
+  background-color: rgba(200, 0, 100, 0.75); 
+  transform: scale(1.15);
+}
+.dropdown-catagory #myButton11:active .confirm-box { 
+  display: grid;
+    place-items: center;
+}
+.confirm-box:hover {
+  display: block;
+}
+#myButton11:active {
+background-color: rgba(200, 0, 0, 0.25);
+      transform: scale(0.85);
+    }
+    #toggleBlurBtn {
+  
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 8px 15px;
+  border: 1px dashed #FF0000;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
+  transition: all 0.25s ease-in-out; 
+}
+
+#toggleBlurBtn:hover {
+  background-color: rgba(200, 0, 100, 0.75); 
+  transform: scale(1.15);
+}
+#toggleBlurBtn:active {
+background-color: rgba(200, 0, 0, 0.25);
+      transform: scale(0.85);
+    }
+.rounded-box {
+  max-width: 100%; /* Ensure it does not exceed the width of its parent container */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px; /* Add some space within the box */
+  background-color: rgba(0, 0, 0, 0.55);
+  border: 2px solid blue; /* Add a border (optional) */
+  border-radius: 25px; /* Adjust this value for roundness */
+  box-shadow: 10px 2px 20px 25px rgba(0, 0, 100, 100);
+}
+.animate-box {
+  animation: fadeIn 1.5s ease-in-out; 
+}
+.animate-dropdown {
+  animation: fadeDown 0.35s ease-in-out; 
+}
+.dropdown-box {
+ display: none;
+ text-align: center; 
+ z-index: 999;
+ margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px; /* Add some space within the box */
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 3px dashed white; /* Add a border (optional) */
+  border-radius: 10px; /* Adjust this value for roundness */
+  box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 100);
+  position: fixed;
+  left: 40%;
+  top: 25%;
+  
+  }
+  .confirm-box {
+  display: none;
+  text-align: center;
+  z-index: 999;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 50px; /* Add some space within the box */
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 3px dashed white; /* Add a border (optional) */
+  border-radius: 25px; /* Adjust this value for roundness */
+  box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 100);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rounded-box2 {
+  height: 10px;
+  
+  margin: 0 auto; /* Center horizontally */
+  padding: 10px; /* Add some space within the box */
+  background-color: rgba(0, 255, 255, 0.25);
+  border: 2px solid white; /* Add a border (optional) */
+  border-radius: 25px; /* Adjust this value for roundness */
+  box-shadow: 0px 0px 20px 1px rgba(0, 255, 255, 100);
+}
+.dropdown-box2 {
+ display: none;
+ text-align: center; 
+ z-index: 999;
+ margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px; /* Add some space within the box */
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 3px dashed white; /* Add a border (optional) */
+  border-radius: 10px; /* Adjust this value for roundness */
+  box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 100);
+   position: fixed;
+   left: 40%;
+   top: 10px;
+  }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+    transform: translateY(2000px); /* Adjust as needed */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 1;
+    transform: scale(0); 
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#myButton5:active + .dropdown-box {
+  display: block; 
+}
+#myButton2:active + .dropdown-box2 {
+  display: block; 
+}
+#myButton11:active + .confirm-box {
+  display: block; 
+}
