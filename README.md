@@ -2,7 +2,7 @@
 You've landed on LX's github repo, made just for his website!
 Before you go on and ~~steal~~ *borrow* the code, letme tell u a little story...
 ## The long and short of it
-Before this was made, and before I even knew what html even was, this was meant to be a test website for weebies. Specificly, [Index.html](https://pages.github.com/) and [links.html](https://pages.github.com/) were for the test.
+Before this was made, and before I even knew what html even was, this was meant to be a test website for weebies. Specificly, [Index.html]([https://pages.github.com/](https://github.com/LX-WR/LX-Corp-Website-formally-weebie-/blob/main/index.html)) and [links.html]([https://pages.github.com/](https://github.com/LX-WR/LX-Corp-Website-formally-weebie-/blob/main/links.html)) were for the test (remember - u still must download da stylesheet and da images for it to look right!).
 After that, I saw the immensly powerful capabilites of HTML code, and so I decided to create my entire website, my personal website, and our partner's website - all running on a Raspberry Pi 5 :}
 Soon, the defualt weebie pages will be replaced by more *formal* language, while still keeping some of that nice LX2023 slang that I enjoy :} The old pages will always be available - just type "old" infront of da "index.html" or "links.html" to see the old ones.
 ## Beginner's suggestions
