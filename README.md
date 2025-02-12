@@ -17,6 +17,7 @@ No! You can enure that this website gets the help it needs by making commits! I,
 ![image](https://github.com/user-attachments/assets/e80023d3-de2d-407c-8931-83c919f6f901)
 ![image](https://github.com/user-attachments/assets/a4871113-30bf-4e1b-8726-95eb08b27dc0)
 ![image](https://github.com/user-attachments/assets/3da95c50-e199-4c5b-b380-f738344efc76)
+secret stuff comming soon (maybe)
 
 
 
