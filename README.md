@@ -1,5 +1,6 @@
 # LX Corp website (formally weebie)
 You've landed on LX's github repo, made just for his website!
+The REAL website is here: http://68.134.47.195:8080/index.html - that's hosted on a Rapsberry Pi 5 :}
 ![image](https://github.com/user-attachments/assets/3abea029-5aba-4f7d-bf19-af3566571a5b)
 Before you go on and ~~steal~~ *borrow* the code, letme tell u a little story...
 ## The long and short of it
