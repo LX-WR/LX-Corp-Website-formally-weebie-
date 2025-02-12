@@ -1,5 +1,6 @@
 # LX Corp website (formally weebie)
 You've landed on LX's github repo, made just for his website!
+![image](https://github.com/user-attachments/assets/3abea029-5aba-4f7d-bf19-af3566571a5b)
 Before you go on and ~~steal~~ *borrow* the code, letme tell u a little story...
 ## The long and short of it
 Before this was made, and before I even knew what html even was, this was meant to be a test website for weebies. Specificly, [Index.html]([https://pages.github.com/](https://github.com/LX-WR/LX-Corp-Website-formally-weebie-/blob/main/index.html)) and [links.html]([https://pages.github.com/](https://github.com/LX-WR/LX-Corp-Website-formally-weebie-/blob/main/links.html)) were for the test (remember - u still must download da stylesheet and da images for it to look right!).
@@ -9,4 +10,15 @@ Soon, the defualt weebie pages will be replaced by more *formal* language, while
 I run my webserver on my Raspberry Pi 5 - 8GB ram, running the apache webserver package. You can grab it on debain-based linux distros pretty easily (ubuntu, etc). More detailed instructions to come. Do keep in mind that I've removed ALL images and backgrounds in the raw git, download the **.zip** archive if u want to have those too :}
 ## Is that all, LX2023?
 No! You can enure that this website gets the help it needs by making commits! I, however, will be maintaining this website for as long as I see fit :} As of 2/11/25, the website is still in development, so there will be missing pages, and those will be fixed in the comming weeks. Farewell, traveler! :}
+## Images of weebie :}
+![image](https://github.com/user-attachments/assets/3abea029-5aba-4f7d-bf19-af3566571a5b)
+![image](https://github.com/user-attachments/assets/86c71303-f7e3-45b9-a52d-f0929ab0c066)
+![image](https://github.com/user-attachments/assets/e80023d3-de2d-407c-8931-83c919f6f901)
+![image](https://github.com/user-attachments/assets/a4871113-30bf-4e1b-8726-95eb08b27dc0)
+![image](https://github.com/user-attachments/assets/3da95c50-e199-4c5b-b380-f738344efc76)
+
+
+
+
+
 
