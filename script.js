@@ -23,4 +23,38 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+const video = document.getElementById('background-video');
+const switcher = document.getElementById('video-switcher');
 
+const videos = [
+    { src: 'images/a2.webm', type: 'video/webm' },
+    { src: 'images/b.webm', type: 'video/webm' },
+    { src: 'images/c.webm', type: 'video/webm' },
+    { src: 'images/snow.webm', type: 'video/webm' },
+    { src: 'images/snow2.webm', type: 'video/webm' },
+    { src: 'images/z.webm', type: 'video/webm' },
+    { src: 'images/y.webm', type: 'video/webm' }
+];
+
+let currentVideoIndex = localStorage.getItem('lastPlayedVideo') ? parseInt(localStorage.getItem('lastPlayedVideo')) : 0;
+
+// Set initial video based on localStorage or default
+video.src = videos[currentVideoIndex].src;
+video.type = videos[currentVideoIndex].type;
+video.load();
+video.play();
+
+switcher.addEventListener('click', () => {
+    currentVideoIndex = (currentVideoIndex + 1) % videos.length;
+    video.pause();
+    video.src = ''; // Important for some browsers
+    video.src = videos[currentVideoIndex].src;
+    video.type = videos[currentVideoIndex].type;
+    video.load();
+    video.play();
+    localStorage.setItem('lastPlayedVideo', currentVideoIndex); // Save to localStorage
+});
+
+video.addEventListener('loadeddata', () => {
+    localStorage.setItem('lastPlayedVideo', currentVideoIndex);
+});

@@ -19,7 +19,7 @@ div.main {width: 100%; padding: 0 0% 0 0}
   float: none; /* Float is unnecessary for centering with position fixed */
   position: fixed;
   transform: translateX(-50%);
-  top: 50px; /* Correcting the value to be in pixels */
+  top: 10px; /* Correcting the value to be in pixels */
   left: 50%;
   text-align: center;
   z-index: 998;
@@ -40,7 +40,7 @@ div.main {width: 100%; padding: 0 0% 0 0}
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton:hover {
@@ -60,7 +60,7 @@ backdrop-filter: blur(15px);
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton2:hover {
@@ -87,7 +87,7 @@ backdrop-filter: blur(15px);
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton3:hover {
@@ -107,7 +107,7 @@ backdrop-filter: blur(15px);
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton4:hover {
@@ -129,7 +129,7 @@ background-color: rgba(0, 200, 255, 0.25);
   border-radius: 7px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton5:hover {
@@ -156,7 +156,7 @@ background-color: rgba(0, 200, 255, 0.25);
   border-radius: 7px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton6:hover {
@@ -176,7 +176,7 @@ background-color: rgba(0, 200, 255, 0.25);
   border-radius: 7px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton7:hover {
@@ -196,7 +196,13 @@ backdrop-filter: blur(15px);
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
+}
+.dropdown-catagory #myButton8:active .dropdown-box3 {
+  display: block; 
+}
+.dropdown-box3:hover {
+  display: block;
 }
 
 #myButton8:hover {
@@ -208,39 +214,41 @@ background-color: rgba(0, 200, 255, 0.25);
       transform: scale(0.85);
     }
 #myButton9 {
-  background-color: rgba(0, 0, 0, 0.25);
+   backdrop-filter:blur(15px);
+  background-color: rgba(0, 255, 0, 0.25);
   color: white;
   padding: 8px 15px;
-  border: 1px dashed #00FF00;
-  border-radius: 7px;
+  border: 2px dashed #00FF00;
+  border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  box-shadow: 0 0px 20px rgba(0, 255, 0, 10);
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton9:hover {
-  background-color: rgba(0, 200, 100, 0.35); 
+  background-color: rgba(0, 255, 0, 0.75); 
   transform: scale(1.15);
 }
 #myButton9:active {
-background-color: rgba(0, 200, 0, 0.25);
+background-color: rgba(0, 255, 0, 0.35);
       transform: scale(0.85);
     }
     #myButton11 {
-    backdrop-filter: blur(15px);
-  background-color: rgba(0, 0, 0, 0.25);
+  backdrop-filter:blur(15px);
+  background-color: rgba(255, 0, 0, 0.25);
   color: white;
   padding: 8px 15px;
-  border: 1px dashed #FF0000;
-  border-radius: 7px;
+  border: 2px dashed #FF0000;
+  border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  box-shadow: 0 0px 20px rgba(255, 0, 0, 1);
+  transition: all 0.125s ease-in-out; 
 }
 
 #myButton11:hover {
-  background-color: rgba(200, 0, 100, 0.75); 
+  background-color: rgba(255, 0, 0, 0.75); 
   transform: scale(1.15);
+  box-shadow: 0 0px 30px rgba(255, 0, 0, 1);
 }
 .dropdown-catagory #myButton11:active .confirm-box { 
   display: grid;
@@ -262,7 +270,7 @@ background-color: rgba(200, 0, 0, 0.25);
   border-radius: 7px;
   cursor: pointer;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 10);
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.125s ease-in-out; 
 }
 
 #toggleBlurBtn:hover {
@@ -350,6 +358,23 @@ background-color: rgba(200, 0, 0, 0.25);
    left: 40%;
    top: 10px;
   }
+  .dropdown-box3 {
+ display: none;
+ text-align: center; 
+ z-index: 999;
+ margin: 0 auto;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px; /* Add some space within the box */
+  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 3px dashed white; /* Add a border (optional) */
+  border-radius: 10px; /* Adjust this value for roundness */
+  box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 100);
+   position: fixed;
+   left: 50%;
+   top: 10px;
+  }
   .rounded-box2 {
   height: 10px;
   backdrop-filter: blur(15px);
@@ -360,6 +385,7 @@ background-color: rgba(200, 0, 0, 0.25);
   border-radius: 25px; /* Adjust this value for roundness */
   box-shadow: 0px 0px 20px 1px rgba(0, 255, 255, 100);
 }
+
 
 @keyframes fadeIn {
   0% {
@@ -395,6 +421,9 @@ background-color: rgba(200, 0, 0, 0.25);
   display: block; 
 }
 #myButton2:active + .dropdown-box2 {
+  display: block; 
+}
+#myButton8:active + .dropdown-box3 {
   display: block; 
 }
 #myButton11:active + .confirm-box {

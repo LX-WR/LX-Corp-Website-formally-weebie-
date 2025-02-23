@@ -20,7 +20,7 @@
   margin: 0 auto; /* Center horizontally */
   padding: 20px; /* Add some space within the box */
   background-color: rgba(255, 255, 255, 0.25);
-  border: 2px solid rgba(255, 255, 255, 1); /* Add a border (optional) */
+  border: 2px solid rgba(255, 255, 255, 0.25); /* Add a border (optional) */
   border-radius: 25px; /* Adjust this value for roundness */
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
 }
@@ -50,6 +50,19 @@ padding: 0 0% 0 0}
   border-radius: 25px; /* Adjust this value for roundness */
   box-shadow: 0px 0px 20px 1px rgba(0, 255, 255, 100);
 }
+.rounded-box3 {
+position: relative;
+top: -10px;
+
+  height: fit-content;
+  width: fit-content;
+  margin: 11 auto; /* Center horizontally */
+  padding: 10px; /* Add some space within the box */
+  background-color: rgba(0, 255, 255, 0.25);
+  border: 2px solid white; /* Add a border (optional) */
+  border-radius: 25px; /* Adjust this value for roundness */
+  box-shadow: 0px 0px 20px 1px rgba(0, 255, 255, 100);
+}
 #myButtonh {
 margin: 10px;
   background-color: rgba(0, 255, 0, 0.25);
@@ -59,7 +72,7 @@ margin: 10px;
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 0px 20px rgba(0, 255, 0, 100);
-  transition: all 0.125s ease-in-out; 
+  transition: all 0.25s ease-in-out; 
 }
 #myButtonh:hover {
 box-shadow: 0 0px 30px rgba(0, 255, 0, 255);
@@ -92,20 +105,43 @@ background-color: rgba(0, 255, 0, 0.55);
 background-color: rgba(0, 255, 0, 0.55);
       transform: scale(0.85);
     }
-h4  {font-family: Arial, Helvectica, sans-serif; color: white; font-size: 1em; font-weight: bold; text-shadow: 0px 0px 10px bleack; padding: 0; margin: 0; line-height: 0.5}
+h4  {font-family: Arial, Helvectica, sans-serif; color: white; font-size: 1em; font-weight: bold; text-shadow: 0px 0px 10px black; padding: 0; margin: 0; line-height: 0.5}
+h5  {font-family: Arial, Helvectica, sans-serif; color: rgba(255, 255, 255, 0.55); font-size: 3em; font-weight: bold; text-shadow: 0px 0px 10px white; padding: 0; margin: 0; line-height: 2}
+h6  {font-family: Arial, Helvectica, sans-serif; color: white; font-size: 1em; font-weight: bold; text-shadow: 0px 0px 10px black; padding: 0; margin: 0; line-height: 0.5}
+h7  {font-family: Arial, Helvectica, sans-serif; color: white; font-size: 1em; font-weight: bold; text-shadow: 0px 0px 10px black; padding: 0; margin: 0; line-height: 1}
+h4  {font-family: Arial, Helvectica, sans-serif; color: rgba(25, 159, 189, 100); font-size: 2.5em; font-weight: bold; text-shadow:
+  0px 0px 10px black,  /* First shadow (smaller blur) */
+  0px 0px 20px rgba(25, 159, 189, 1),
+  0px 0px 40px rgba(25, 159, 189, 1); padding: 0; margin: 0; line-height: 0}
+  .details {
+  text-align: left;
+  width: 98%;
+  height: fit-content;
+  margin: 25px auto; /* Center horizontally */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;/* Add some space within the box */
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid white; /* Add a border (optional) */
+  border-radius: 25px; /* Adjust this value for roundness */
+  box-shadow: 10px 2px 20px 2px rgba(0, 0, 0, 100);
+}
+.tab {
+position: relative;
+top: -20px;
+left: -10px;
+ background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid white; 
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 100);
+  
+
+}
 </style>
 </head>
-<button id="myButton11">Speed things up &#x1F6E1;</button>
-<div class="confirm-box"> 
-    <h3>Warning:</h3>
-    <p>This will USE JAVASCRIPT to disable blurring.</p>
-    <p>This operation will also use 1 cookie to remember your preference.</p>
-    <a href="helpland.html">
-    <button id="myButton9">No, go back</button>
-    --
-    <button id="toggleBlurBtn">Toggle Blur and use 1 cookie</button>
-    </a>
-  </div>
 
 <body>
 <video autoplay muted loop id="background-video">
@@ -163,45 +199,58 @@ h4  {font-family: Arial, Helvectica, sans-serif; color: white; font-size: 1em; f
 <div class="rounded-box animate-box">
 <!-- Sidebar shit -->
 <a href="webhelp.html">
-  <button id="myButtonh">Website help</button>
+  <button id="myButtonh">General Website Settings :}</button>
+</a>
+<a href="fast.html">
+  <button id="myButtonh">Visual Effects :D</button>
 </a>
 <a href="woah.html">
-  <button id="myButtonh">LX OS 3.1 User Guide</button>
+  <button id="myButtonh">Go BAK home</button>
 </a>
 <a href="woah.html">
-  <button id="myButtonh">LX OS MC User Guide</button>
+  <button id="myButtonh">Beta Testing :o</button>
 </a>
 <a href="woah.html">
-  <button id="myButtonh">Other things :}</button>
+  <button id="myButtonh">Credits ;}</button>
 </a>
-<a href="woah.html">
-  <button id="myButtonh">More help...</button>
-</a>
-<button id="video-switcher">Switch video (javascript)</button>
 </div>
 </div>
 <div class="content">
 <!-- place content BELOW this line, peep :} -->
 <p>--</p>
-<h3>Welcome to the LX Help Center!</h3>
+<p>--</p>
+<p>--</p>
+<div class="rounded-box animate-box">
+<h5>General Website Settings :}</h5>
 <div class="rounded-box2 animate-box">
-<h4>You have arrived at the place to get help for everything LX Corp.</h4>
+<h6>General personalization settings for da site :}</h6>
 </div>
-<p>To begin, click a topic in da sidebar :}</p>
-<h3>Need even more help?</h3>
-<p>Contact LX2023 :}</p>
-<a href="https://discord.gg/ZVP5UNMCgX">
-  <button id="myButton9">Contact LX2023 on discord...</button>
-</a>
-<a href="mailto:manmanbear11@outlook.com?subject=I need some help rn pls rn, help nOw - reach me at (insert form of contact here)">
-  <button id="myButton9">Contact LX2023 by email...</button>
-</a>
+<div class="details animate-box">
+<div class="tab">
+<h4>Video Settings</h4>
+</div>
+<div class="rounded-box3 animate-box">
+<h7>Settings for da video background. Do note that this uses javascript and cookies to remember ur preference :}</h7>
+</div>
+<button id="video-switcher">Switch video (javascript)</button>
+<button id="myButton9">Ask LX to put a video here...</button>
+</div>
+<div class="details animate-box">
+<div class="tab">
+<h4>Permissions</h4>
+</div>
+<div class="rounded-box3 animate-box">
+<h7>Set different permissions for different features :}</h7>
+</div>
+<button id="myButton9">Request Microphone Access...</button>
+-
+<button id="myButton9">Request Camera Access...</button>
+-
+<button id="myButton9">Request External Device Access...</button>
+</div>
+<button id="toggleBlurBtn">Speed things up &#x1F6E1;</button>
 <p>-</p>
-<div class="rounded-box2 animate-box">
-<h4>Note: The discord link is faster and more reliable than email.</h4>
-
 </div>
 </div>
 </body>
 <script src="script.js"></script>
-
