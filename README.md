@@ -10,7 +10,7 @@ Soon, the defualt weebie pages will be replaced by more *formal* language, while
 ## Beginner's suggestions
 I run my webserver on my Raspberry Pi 5 - 8GB ram, running the apache webserver package. You can grab it on debain-based linux distros pretty easily (ubuntu, etc). More detailed instructions to come. Do keep in mind that I've removed ALL images and backgrounds in the raw git, download the **.zip** archive if u want to have those too :}
 ## Is that all, LX2023?
-No! You can enure that this website gets the help it needs by making commits! I, however, will be maintaining this website for as long as I see fit :} As of 2/15/25, the website is still in development, so there will be missing pages, and those will be fixed in the comming weeks. Farewell, traveler! :}
+No! You can enure that this website gets the help it needs by making commits! I, however, will be maintaining this website for as long as I see fit :} As of 2/23/25, the website is still in development, so there will be missing pages, and those will be fixed in the comming weeks. Farewell, traveler! :}
 ## Images of weebie :}
 ![image](https://github.com/user-attachments/assets/3abea029-5aba-4f7d-bf19-af3566571a5b)
 ![image](https://github.com/user-attachments/assets/86c71303-f7e3-45b9-a52d-f0929ab0c066)
