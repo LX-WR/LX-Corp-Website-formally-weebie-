@@ -11,27 +11,32 @@ Soon, the defualt weebie pages will be replaced by more *formal* language, while
 I run my webserver on my Raspberry Pi 5 - 8GB ram, running the apache webserver package. You can grab it on debain-based linux distros pretty easily (ubuntu, etc).  Do keep in mind that I've removed ALL images and backgrounds in the raw git, download the **.zip** archive if u want to have those too :}
 You'll want to use apache2 to host a website, and i highly reccomend using a dedicated device (such as a raspberry pi) that is always on. 
 These intructions are currently for LX OS and other debain-based distros.
+1st, i'm gonna need u to install apache on the server:
 ```
 sudo apt install apache2
 ```
-now, if you don't already, install a GUI file manager (pcmanfm is my favorite)
+now, if you don't already, install a GUI file manager (pcmanfm is my favorite):
 ```
-sudo apt install pcmanfm
+sudo apt install pcmanfm # note, this is only needed for beginners, if u know how to copy files using da terminal, ignore this step
 ```
 now run
 ```
-sudo pcmanfm
+sudo pcmanfm # again, if u don't need it, don't use pcmanfm
 ```
 You'll be asked to provide your password. After that, navigate to
 ```
 var/www/html/
 ```
-and drop the website files in that folder. Now, navigate to your device's local IP address, preferaby on a different machine. If you can't, simply type:
+and drop the website files in that folder. Now, navigate to your device's local IP address, preferably on a different machine. If you can't, simply type:
 ```
 localhost://
 ```
 into ur favorite webbrowser. If you do have ur local ip, you can forward it to the public internet via the settings on your router. I can't give instructions on how to do it, as there are too many different manufacturers :c 
-Once you do that, if you'd like a free domain, head over to noip.com, create an account and point ur coustom url twoards ur port-forwarded public IP address. Don't know what ur public ip is? Just go to https://whatismyipaddress.com/ .
+Once you do that, if you'd like a free domain, head over to noip.com, create an account and point ur coustom url twoards ur port-forwarded public IP address. Don't know what ur public ip is? Just go to
+```
+https://whatismyipaddress.com/
+```
+and copy the iPV4 ip address.
 That's the (very overhead) guide on how to host ur own website - in ur own house :}
 ## Is that all, LX2023?
 No! You can enure that this website gets the help it needs by making commits! I, however, will be maintaining this website for as long as I see fit :} As of 3/11/25, the website is still in development, so there will be missing pages, and those will be fixed in the comming weeks. Farewell, traveler! :}
