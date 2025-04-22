@@ -9,13 +9,13 @@ After that, I saw the immensly powerful capabilites of HTML code, and so I decid
 Soon, the defualt weebie pages will be replaced by more *formal* language, while still keeping some of that nice LX2023 slang that I enjoy :} The old pages will always be available - just type "old" infront of da "[index.html]([https://pages.github.com/](https://github.com/LX-WR/LX-Corp-Website-formally-weebie-/blob/main/index.html))" or "[links.html]([https://pages.github.com/](https://github.com/LX-WR/LX-Corp-Website-formally-weebie-/blob/main/links.html))" to see the old ones.
 ## Beginner's suggestions
 I run my webserver on my Raspberry Pi 5 - 8GB ram, running the apache webserver package. You can grab it on debain-based linux distros pretty easily (ubuntu, etc).  Do keep in mind that I've removed ALL images and backgrounds in the raw git, download the **.zip** archive if u want to have those too :}
-You'll want to use apache2 to host a website, and i highly reccomend using a dedicated device (such as a raspberry pi) that is always on. 
+You'll want to use apache2 to host a website, and I highly reccomend using a dedicated device (such as a raspberry pi) that is always on. 
 These intructions are currently for LX OS and other debain-based distros.
-1st, i'm gonna need u to install apache on the server:
+1st, I'm gonna need u to install apache on the server:
 ```
 sudo apt install apache2
 ```
-now, if you don't already, install a GUI file manager (pcmanfm is my favorite):
+now, if you didn't already, install a GUI file manager (pcmanfm is my favorite):
 ```
 sudo apt install pcmanfm # note, this is only needed for beginners, if u know how to copy files using da terminal, ignore this step
 ```
@@ -32,14 +32,18 @@ and drop the website files in that folder. Now, navigate to your device's local 
 localhost://
 ```
 into ur favorite webbrowser. If you do have ur local ip, you can forward it to the public internet via the settings on your router. I can't give instructions on how to do it, as there are too many different manufacturers :c 
-Once you do that, if you'd like a free domain, head over to duckdns.org, create an account and point ur coustom url twoards ur port-forwarded public IP address. Don't know what ur public ip is? Just go to
+Once you do that, if you'd like a free domain, head over to 
+```
+duckdns.org
+```
+then, create an account and point ur coustom url twoards ur port-forwarded public IP address. Don't know what ur public ip is? Just go to
 ```
 https://whatismyipaddress.com/
 ```
 and copy the iPV4 ip address.
 That's the (very overhead) guide on how to host ur own website - in ur own house :}
 ## Is that all, LX2023?
-No! You can enure that this website gets the help it needs by making commits! I, however, will be maintaining this website for as long as I see fit :} As of 3/11/25, the website is still in development, so there will be missing pages, and those will be fixed in the comming weeks. Farewell, traveler! :}
+No! You can enure that this website gets the help it needs by making commits! I, however, will be maintaining this website for as long as I see fit :} As of 4/22/25, the website is still in development, so there will be missing pages, and those will be fixed in the comming weeks. Farewell, traveler! :}
 ## Images of weebie :}
 ![image](https://github.com/user-attachments/assets/3abea029-5aba-4f7d-bf19-af3566571a5b)
 ![image](https://github.com/user-attachments/assets/86c71303-f7e3-45b9-a52d-f0929ab0c066)
