@@ -1,6 +1,6 @@
 # LX Corp website (formally weebie)
 You've landed on LX's github repo, made just for his website!
-The REAL website is here: http://lxcorp.ddns.net/index.html - that's hosted on a Rapsberry Pi 5 :}
+The REAL website is here: https://lxcorp.duckdns.org/index.html - that's hosted on a Rapsberry Pi 5 :}
 ![image](https://github.com/user-attachments/assets/3abea029-5aba-4f7d-bf19-af3566571a5b)
 Before you go on and ~~steal~~ *borrow* the code, letme tell u a little story...
 ## The long and short of it
@@ -32,7 +32,7 @@ and drop the website files in that folder. Now, navigate to your device's local 
 localhost://
 ```
 into ur favorite webbrowser. If you do have ur local ip, you can forward it to the public internet via the settings on your router. I can't give instructions on how to do it, as there are too many different manufacturers :c 
-Once you do that, if you'd like a free domain, head over to noip.com, create an account and point ur coustom url twoards ur port-forwarded public IP address. Don't know what ur public ip is? Just go to
+Once you do that, if you'd like a free domain, head over to duckdns.org, create an account and point ur coustom url twoards ur port-forwarded public IP address. Don't know what ur public ip is? Just go to
 ```
 https://whatismyipaddress.com/
 ```
