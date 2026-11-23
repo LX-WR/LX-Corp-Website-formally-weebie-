@@ -1,6 +1,15 @@
+# ⚠️ WARNING! ⚠️
+This is an old version of the website, and the information presented here is *wildly* out of date. :/
+You should request updated information by contacting me directly, or wait until I make a new repo with updated files.
+If you follow these instructions, you will be running an older version of the website.
+
+**You have been warned.**
+
+-----------------------------------------------
+
 # LX Corp website (formally weebie)
 You've landed on LX's github repo, made just for his website!
-The REAL website is here: https://lxcorp.duckdns.org/index.html - that's hosted on a Rapsberry Pi 5 :}
+The REAL website is here: https://lxcorp.duckdns.org/index.php - that's hosted on a Rapsberry Pi 5 :}
 ![image](https://github.com/user-attachments/assets/3abea029-5aba-4f7d-bf19-af3566571a5b)
 Before you go on and ~~steal~~ *borrow* the code, letme tell u a little story...
 ## The long and short of it
